@@ -7,8 +7,7 @@ A premium Christmas plush e-commerce landing page built with Next.js 16, TypeScr
 - 🎨 **Premium Design**: Festive Christmas theme with smooth animations
 - 📱 **Mobile-First**: Fully responsive design optimized for all devices
 - 🌐 **Bilingual**: Spanish/English language support
-- 💬 **WhatsApp Integration**: Direct contact with pre-filled messages
-- 🌓 **Dark/Light Mode**: Theme toggle with system preference detection
+- 💬 **WhatsApp Integration**: Direct contact with pre-filled message
 - ⚡ **Performance**: Optimized images and fast loading times
 - 🔒 **Security**: Security headers and rate limiting middleware
 - ♿ **Accessibility**: WCAG AA compliant
