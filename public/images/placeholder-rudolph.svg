@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" fill="none">
+  <rect width="400" height="500" fill="#F7F3EC"/>
+  <defs>
+    <radialGradient id="r1" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#F0E6D3" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#F7F3EC" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#r1)"/>
+  <ellipse cx="200" cy="220" rx="65" ry="80" fill="#8B6914" opacity="0.08"/>
+  <ellipse cx="200" cy="180" rx="48" ry="52" fill="#8B6914" opacity="0.1"/>
+  <circle cx="186" cy="172" r="4" fill="#1B3A2D" opacity="0.3"/>
+  <circle cx="214" cy="172" r="4" fill="#1B3A2D" opacity="0.3"/>
+  <circle cx="200" cy="186" r="7" fill="#8B2635" opacity="0.35"/>
+  <path d="M178 142 L168 115" stroke="#8B6914" stroke-width="3" opacity="0.12" stroke-linecap="round"/>
+  <path d="M222 142 L232 115" stroke="#8B6914" stroke-width="3" opacity="0.12" stroke-linecap="round"/>
+  <circle cx="168" cy="112" r="3" fill="#8B6914" opacity="0.1"/>
+  <circle cx="232" cy="112" r="3" fill="#8B6914" opacity="0.1"/>
+  <ellipse cx="200" cy="310" rx="30" ry="15" fill="#1B3A2D" opacity="0.03"/>
+  <text x="200" y="420" text-anchor="middle" font-family="serif" font-size="13" fill="#1B3A2D" opacity="0.15" letter-spacing="3">RUDOLPH</text>
+</svg>

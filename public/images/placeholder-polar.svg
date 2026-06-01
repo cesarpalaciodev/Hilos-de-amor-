@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" fill="none">
+  <rect width="400" height="500" fill="#F7F3EC"/>
+  <defs>
+    <radialGradient id="p1" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#F0E6D3" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#F7F3EC" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#p1)"/>
+  <ellipse cx="200" cy="230" rx="70" ry="80" fill="#E8DFD0" opacity="0.5"/>
+  <ellipse cx="200" cy="185" rx="52" ry="52" fill="#E8DFD0" opacity="0.55"/>
+  <circle cx="186" cy="178" r="4" fill="#1B3A2D" opacity="0.3"/>
+  <circle cx="214" cy="178" r="4" fill="#1B3A2D" opacity="0.3"/>
+  <ellipse cx="200" cy="192" rx="7" ry="4" fill="#1B3A2D" opacity="0.15"/>
+  <circle cx="172" cy="155" r="14" fill="#E8DFD0" opacity="0.4"/>
+  <circle cx="228" cy="155" r="14" fill="#E8DFD0" opacity="0.4"/>
+  <path d="M170 250 Q200 268 230 250" stroke="#8B2635" stroke-width="5" opacity="0.12" stroke-linecap="round" fill="none"/>
+  <ellipse cx="200" cy="320" rx="30" ry="15" fill="#1B3A2D" opacity="0.03"/>
+  <text x="200" y="420" text-anchor="middle" font-family="serif" font-size="13" fill="#1B3A2D" opacity="0.15" letter-spacing="3">POLAR BEAR</text>
+</svg>

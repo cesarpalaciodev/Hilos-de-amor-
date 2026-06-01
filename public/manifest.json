@@ -1,0 +1,16 @@
+{
+  "name": "Hilos de Amor",
+  "short_name": "Hilos de Amor",
+  "description": "Peluches navideños artesanales hechos a mano con amor",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFF8F0",
+  "theme_color": "#C41E3A",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

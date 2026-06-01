@@ -1,0 +1,107 @@
+# Datos de Productos — The Festive Plushery
+# Llena los datos de cada producto. Deja en blanco los que no uses.
+# Precio en pesos Colombianos (solo el número, sin símbolo $)
+
+---
+
+## Producto 1
+Nombre: Nieve Regalo 
+Precio: 180.000
+Descripción: Muñeco decorativo con forma de muñeco de nieve, bufanda verde, gorro estampado y un regalo en la espalda. Artículo de ornamentación versátil para colocar en cualquier lugar del hogar.
+Imagen: 01 nieve regalo 
+
+## Producto 2
+Nombre: Papá Noel 
+Precio: 180.000
+Descripción: Muñeco decorativo de Papá Noel con barba larga, traje estampado y saco marrón a un costado. Es un artículo de ornamentación versátil para colocar en cualquier lugar del hogar.
+Imagen: 02 Papá noel barbas
+
+## Producto 3
+Nombre: Pareja de Noeles
+Precio: 130.000
+Descripción: Pareja de muñecos sentados que representan a Papá Noel y a la señora Claus, ambos con vestimenta navideña. Es un artículo de ornamentación versátil para colocar en cualquier lugar del hogar.
+Imagen: 03 Pareja noeles
+
+## Producto 4
+Nombre: Pareja Renos Columpio
+Precio: 140.000
+Descripción: Pareja de muñecos con forma de renos, vestidos con ropa navideña y suspendidos sobre un columpio. Es un artículo de ornamentación colgante diseñado para decorar diversos espacios del hogar.
+Imagen: 04 Pareja renos
+
+## Producto 5
+Nombre: Pareja Nieves Columpio
+Precio: 140.000
+Descripción: Pareja de muñecos con forma de hombre de nieve, vestidos con ropa navideña y suspendidos sobre un columpio. Es un artículo de ornamentación colgante diseñado para decorar diversos espacios del hogar.
+Imagen: 05 Pareja nieves 
+
+## Producto 6
+Nombre: Pareja Noeles Columpio
+Precio: 140.000
+Descripción: Pareja de muñecos que representan a Papá Noel y la señora Claus, vestidos con ropa navideña y suspendidos sobre un columpio. Artículo de ornamentación colgante diseñado para decorar diversos espacios del hogar.
+Imagen: 06 Pareja noeles
+
+## Producto 7
+Nombre: Pareja Renos Cortineros
+Precio: 80.000
+Descripción: Pareja de renos de peluche con narices rojas y trajes navideños estampados. Diseñados con brazos ajustables para sujetar y decorar las cortinas del hogar.
+Imagen: 07 Renos cortineros
+
+## Producto 8
+Nombre: Cubre Sillas Navideño
+Precio: 300.000
+Descripción: Juego de cuatro cubresillas con motivos navideños que incluyen un reno, un muñeco de nieve, Papá Noel y un pingüino. Diseñados para ajustar y decorar sillas durante la temporada festiva.
+Imagen: 08 Cubre sillas 
+
+## Producto 9
+Nombre: Cubre Sillas Árbol
+Precio: 270.000
+Descripción: Juego de tres cubresillas con diseño de árbol navideño que integra figuras de un reno, un muñeco de nieve y Papá Noel. Diseñados para ajustar y decorar sillas durante la temporada festiva.
+Imagen: 09 cubre sillas 2 
+
+## Producto 10
+Nombre: Papá Noel Trepador
+Precio: 100.000
+Descripción: Muñeco decorativo de Papá Noel de tela con pantalón a cuadros, gorro rojo, gafas y saco verde. Sus extremidades y manos le permiten agarrarse a diversas superficies para decorar.
+Imagen: 10 papa noel agarrado
+
+## Producto 11
+Nombre: Pie de Cama 
+Precio: 290.000
+Descripción: Conjunto decorativo para cama compuesto por dos cojines con figuras navideñas y una manta tipo pie de cama con aplicaciones de un pingüino, un muñeco de nieve y un reno.
+Imagen: 11 Decoracion de cama 
+
+## Producto 12
+Nombre: Pie de Cama Flores
+Precio: 350.000
+Descripción: Conjunto decorativo para cama que incluye dos cojines y una manta tipo pie de cama con aplicaciones de flores de Pascua, junto con dos muñecos navideños.
+Imagen: 12 Decoracion cama 2
+
+## Producto 13
+Nombre: Trio Navideño Puerta 
+Precio: 70.000
+Descripción: Adorno decorativo con forma de farol navideño que incluye figuras de reno, muñeco de nieve y pingüino. Diseñado para utilizarse como elemento de decoración para las puertas.
+Imagen: 13 Decoracion para puerta
+
+## Producto 14
+Nombre: Vela Navideña Puerta
+Precio: 70.000
+Descripción: Adorno con diseño de vela verde y flor de Pascua roja. Este producto sirve como decoración para las puertas durante la temporada navideña.
+Imagen: 14 Vela puerta
+
+## Producto 15
+Nombre: Cenefa Navideña 
+Precio: 200.000
+Descripción: Cenefa navideña compuesta por cinco piezas colgantes en tela roja, cada una con un personaje distinto. Artículo diseñado para servir como elemento de decoración.
+Imagen: 15 cenefa 
+
+## Producto 16
+Nombre: Juego de Baño
+Precio: 120.000
+Descripción: Juego de baño navideño compuesto por tres piezas rojas decoradas con figuras de Papá Noel y la señora Claus. Artículo diseñado para la decoración temática del baño.
+Imagen: 16 Decoracion baño
+
+## Producto 17
+Nombre: Muñeca Alma de Amor 
+Precio: 70.000
+Descripción: Muñeca de trapo con vestido estampado de flores, gorro con encaje y gafas. Este producto sirve como objeto decorativo para el hogar o como un detalle para regalar.
+Imagen: 17 Muñeca 

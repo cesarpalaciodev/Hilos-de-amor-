@@ -1,0 +1,147 @@
+export interface Product {
+  id: string
+  name: string
+  price: number
+  description: string
+  image: string
+  badge?: string
+}
+
+export const products: Product[] = [
+  {
+    id: "nieve-regalo",
+    name: "Nieve Regalo",
+    price: 180000,
+    description: "Muñeco decorativo con forma de muñeco de nieve, bufanda verde, gorro estampado y un regalo en la espalda. Artículo de ornamentación versátil para colocar en cualquier lugar del hogar.",
+    image: "/images/01-nieve-regalo.png",
+    badge: "Hecho a mano",
+  },
+  {
+    id: "papa-noel-barbas",
+    name: "Papá Noel",
+    price: 180000,
+    description: "Muñeco decorativo de Papá Noel con barba larga, traje estampado y saco marrón a un costado. Es un artículo de ornamentación versátil para colocar en cualquier lugar del hogar.",
+    image: "/images/02-papa-noel-barbas.png",
+    badge: "Hecho a mano",
+  },
+  {
+    id: "pareja-noeles",
+    name: "Pareja de Noeles",
+    price: 130000,
+    description: "Pareja de muñecos sentados que representan a Papá Noel y a la señora Claus, ambos con vestimenta navideña. Es un artículo de ornamentación versátil para colocar en cualquier lugar del hogar.",
+    image: "/images/03-pareja-noeles.png",
+    badge: "Hecho a mano",
+  },
+  {
+    id: "pareja-renos",
+    name: "Pareja Renos Columpio",
+    price: 140000,
+    description: "Pareja de muñecos con forma de renos, vestidos con ropa navideña y suspendidos sobre un columpio. Es un artículo de ornamentación colgante diseñado para decorar diversos espacios del hogar.",
+    image: "/images/04-pareja-renos.png",
+    badge: "Edición limitada",
+  },
+  {
+    id: "pareja-nieves",
+    name: "Pareja Nieves Columpio",
+    price: 140000,
+    description: "Pareja de muñecos con forma de hombre de nieve, vestidos con ropa navideña y suspendidos sobre un columpio. Es un artículo de ornamentación colgante diseñado para decorar diversos espacios del hogar.",
+    image: "/images/05-pareja-nieves.png",
+    badge: "Edición limitada",
+  },
+  {
+    id: "pareja-noeles-columpio",
+    name: "Pareja Noeles Columpio",
+    price: 140000,
+    description: "Pareja de muñecos que representan a Papá Noel y la señora Claus, vestidos con ropa navideña y suspendidos sobre un columpio. Artículo de ornamentación colgante diseñado para decorar diversos espacios del hogar.",
+    image: "/images/06-pareja-noeles-columpio.png",
+    badge: "Edición limitada",
+  },
+  {
+    id: "renos-cortineros",
+    name: "Pareja Renos Cortineros",
+    price: 80000,
+    description: "Pareja de renos de peluche con narices rojas y trajes navideños estampados. Diseñados con brazos ajustables para sujetar y decorar las cortinas del hogar.",
+    image: "/images/07-renos-cortineros.png",
+    badge: "Hecho a mano",
+  },
+  {
+    id: "cubre-sillas",
+    name: "Cubre Sillas Navideño",
+    price: 300000,
+    description: "Juego de cuatro cubresillas con motivos navideños que incluyen un reno, un muñeco de nieve, Papá Noel y un pingüino. Diseñados para ajustar y decorar sillas durante la temporada festiva.",
+    image: "/images/08-cubre-sillas.png",
+    badge: "Juego de 4",
+  },
+  {
+    id: "cubre-sillas-arbol",
+    name: "Cubre Sillas Árbol",
+    price: 270000,
+    description: "Juego de tres cubresillas con diseño de árbol navideño que integra figuras de un reno, un muñeco de nieve y Papá Noel. Diseñados para ajustar y decorar sillas durante la temporada festiva.",
+    image: "/images/09-cubre-sillas-arbol.png",
+    badge: "Juego de 3",
+  },
+  {
+    id: "papa-noel-trepador",
+    name: "Papá Noel Trepador",
+    price: 100000,
+    description: "Muñeco decorativo de Papá Noel de tela con pantalón a cuadros, gorro rojo, gafas y saco verde. Sus extremidades y manos le permiten agarrarse a diversas superficies para decorar.",
+    image: "/images/10-papa-noel-trepador.png",
+    badge: "Hecho a mano",
+  },
+  {
+    id: "pie-de-cama",
+    name: "Pie de Cama",
+    price: 290000,
+    description: "Conjunto decorativo para cama compuesto por dos cojines con figuras navideñas y una manta tipo pie de cama con aplicaciones de un pingüino, un muñeco de nieve y un reno.",
+    image: "/images/11-pie-de-cama.png",
+    badge: "Set completo",
+  },
+  {
+    id: "pie-de-cama-flores",
+    name: "Pie de Cama Flores",
+    price: 350000,
+    description: "Conjunto decorativo para cama que incluye dos cojines y una manta tipo pie de cama con aplicaciones de flores de Pascua, junto con dos muñecos navideños.",
+    image: "/images/12-pie-de-cama-flores.png",
+    badge: "Set completo",
+  },
+  {
+    id: "trio-navideno-puerta",
+    name: "Trío Navideño Puerta",
+    price: 70000,
+    description: "Adorno decorativo con forma de farol navideño que incluye figuras de reno, muñeco de nieve y pingüino. Diseñado para utilizarse como elemento de decoración para las puertas.",
+    image: "/images/13-trio-navideno-puerta.png",
+    badge: "Hecho a mano",
+  },
+  {
+    id: "vela-navidena-puerta",
+    name: "Vela Navideña Puerta",
+    price: 70000,
+    description: "Adorno con diseño de vela verde y flor de Pascua roja. Este producto sirve como decoración para las puertas durante la temporada navideña.",
+    image: "/images/14-vela-navidena-puerta.png",
+    badge: "Hecho a mano",
+  },
+  {
+    id: "cenefa-navidena",
+    name: "Cenefa Navideña",
+    price: 200000,
+    description: "Cenefa navideña compuesta por cinco piezas colgantes en tela roja, cada una con un personaje distinto. Artículo diseñado para servir como elemento de decoración.",
+    image: "/images/15-cenefa-navidena.png",
+    badge: "Set de 5",
+  },
+  {
+    id: "juego-de-bano",
+    name: "Juego de Baño",
+    price: 120000,
+    description: "Juego de baño navideño compuesto por tres piezas rojas decoradas con figuras de Papá Noel y la señora Claus. Artículo diseñado para la decoración temática del baño.",
+    image: "/images/16-juego-de-bano.png",
+    badge: "Juego de 3",
+  },
+  {
+    id: "muneca-alma-de-amor",
+    name: "Muñeca Alma de Amor",
+    price: 70000,
+    description: "Muñeca de trapo con vestido estampado de flores, gorro con encaje y gafas. Este producto sirve como objeto decorativo para el hogar o como un detalle para regalar.",
+    image: "/images/17-muneca-alma-de-amor.png",
+    badge: "Hecho a mano",
+  },
+]

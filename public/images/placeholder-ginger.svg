@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" fill="none">
+  <rect width="400" height="500" fill="#F7F3EC"/>
+  <defs>
+    <radialGradient id="g1" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#F0E6D3" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#F7F3EC" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#g1)"/>
+  <path d="M200 120 C238 120 258 148 258 185 C258 212 248 232 238 252 L228 290 L172 290 L162 252 C152 232 142 212 142 185 C142 148 162 120 200 120Z" fill="#C9A84C" opacity="0.12"/>
+  <circle cx="186" cy="175" r="4" fill="#FFFFFF" opacity="0.5"/>
+  <circle cx="214" cy="175" r="4" fill="#FFFFFF" opacity="0.5"/>
+  <path d="M192 192 Q200 200 208 192" stroke="#FFFFFF" stroke-width="2.5" opacity="0.35" fill="none" stroke-linecap="round"/>
+  <circle cx="182" cy="215" r="3.5" fill="#FFFFFF" opacity="0.3"/>
+  <circle cx="200" cy="225" r="3.5" fill="#FFFFFF" opacity="0.3"/>
+  <circle cx="218" cy="215" r="3.5" fill="#FFFFFF" opacity="0.3"/>
+  <path d="M155 170 L138 152" stroke="#C9A84C" stroke-width="3" opacity="0.1" stroke-linecap="round"/>
+  <path d="M245 170 L262 152" stroke="#C9A84C" stroke-width="3" opacity="0.1" stroke-linecap="round"/>
+  <ellipse cx="200" cy="300" rx="30" ry="15" fill="#1B3A2D" opacity="0.03"/>
+  <text x="200" y="420" text-anchor="middle" font-family="serif" font-size="13" fill="#1B3A2D" opacity="0.15" letter-spacing="3">GINGERBREAD</text>
+</svg>
