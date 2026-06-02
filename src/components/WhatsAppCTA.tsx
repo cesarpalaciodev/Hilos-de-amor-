@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 import { getWhatsAppUrl } from "@/lib/whatsapp"
-import { trackWhatsAppClick } from "@/lib/analytics"
+import { trackWhatsAppClick, trackContactClick } from "@/lib/analytics"
 import { type TranslationKey } from "@/lib/i18n"
 import { Star } from "./ChristmasDecorations"
 import { GiftBox } from "./ChristmasIcons"
@@ -45,7 +45,10 @@ export function WhatsAppCTA({ t }: WhatsAppCTAProps) {
           href={getWhatsAppUrl()}
           target="_blank"
           rel="noopener noreferrer"
-          onClick={() => trackWhatsAppClick()}
+          onClick={() => {
+            trackContactClick()
+            trackWhatsAppClick()
+          }}
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}

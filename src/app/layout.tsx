@@ -3,6 +3,7 @@ import { Cormorant_Garamond, DM_Sans } from "next/font/google"
 import Script from "next/script"
 import "./globals.css"
 import { site } from "@/data/site"
+import { products } from "@/data/products"
 
 const cormorant = Cormorant_Garamond({
   variable: "--font-cormorant",
@@ -100,15 +101,38 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "LocalBusiness",
-              name: site.name,
-              description: site.description,
-              url: "https://www.hilos-de-amor.com",
+              "@graph": [
+                {
+                  "@type": "LocalBusiness",
+                  name: site.name,
+                  description: site.description,
+                  url: "https://www.hilos-de-amor.com",
+                },
+                ...products.map((product) => ({
+                  "@type": "Product",
+                  name: product.name,
+                  description: product.description,
+                  image: `https://www.hilos-de-amor.com${product.image}`,
+                  offers: {
+                    "@type": "Offer",
+                    price: product.price,
+                    priceCurrency: site.currency,
+                    availability: "https://schema.org/InStock",
+                    url: `https://www.hilos-de-amor.com/#product-${product.id}`,
+                  },
+                })),
+              ],
             }),
           }}
         />
       </head>
       <body className="relative min-h-screen flex flex-col bg-cream text-forest">
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:rounded-full focus:bg-christmas-red focus:px-4 focus:py-2 focus:text-cream"
+        >
+          Saltar al contenido principal
+        </a>
         <div
           className="pointer-events-none fixed inset-0 z-[60] opacity-[0.025]"
           style={{

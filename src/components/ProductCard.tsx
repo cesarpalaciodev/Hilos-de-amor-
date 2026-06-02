@@ -3,7 +3,7 @@
 import Image from "next/image"
 import { motion } from "framer-motion"
 import { getWhatsAppUrl } from "@/lib/whatsapp"
-import { trackWhatsAppClick } from "@/lib/analytics"
+import { trackWhatsAppClick, trackProductView } from "@/lib/analytics"
 import { type Product } from "@/data/products"
 import { type Locale } from "@/lib/i18n"
 import { site } from "@/data/site"
@@ -26,6 +26,11 @@ export function ProductCard({
   askWhatsAppLabel,
 }: ProductCardProps) {
   const { name, description, badge } = product
+
+  const handleViewDetails = () => {
+    trackProductView(name, product.id)
+    onViewDetails()
+  }
 
   return (
     <motion.article
@@ -51,6 +56,8 @@ export function ProductCard({
               fill
               className="object-contain p-4 transition-all duration-1000 ease-[cubic-bezier(0.32,0.72,0,1)] group-hover:scale-[1.04]"
               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+              placeholder="blur"
+              blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=="
             />
             <div className="absolute inset-0 bg-gradient-to-t from-forest/15 via-transparent to-transparent opacity-0 transition-opacity duration-800 group-hover:opacity-100" />
             {badge && (
@@ -76,7 +83,7 @@ export function ProductCard({
 
             <div className="mt-8 flex flex-col gap-3">
               <button
-                onClick={onViewDetails}
+                onClick={handleViewDetails}
                 className="w-full rounded-full border border-forest/10 py-3.5 text-[13px] font-medium text-forest/70 transition-all duration-700 ease-[cubic-bezier(0.32,0.72,0,1)] hover:border-forest/20 hover:bg-forest/[0.02] hover:text-forest active:scale-[0.97]"
               >
                 {viewDetailsLabel}
