@@ -5,7 +5,7 @@ export const site = {
   email: "hilosdeamor694@gmail.com",
   domain: "hilos-de-amor.com",
   social: {
-    instagram: "https://www.instagram.com/el_hilo_de_la_familia?igsh=eTc2a2JlaWlsdXB0&utm_source=qr",
+    instagram: "https://www.instagram.com/hilo_de_amor_francia?igsh=aG91aGJhMzdmNXk=",
     facebook: "https://www.facebook.com/share/17sueF4dsw/?mibextid=wwXIfr"
   },
   currency: "COP",
