@@ -1,4 +1,5 @@
 import { Metadata } from "next"
+import Link from "next/link"
 import { site } from "@/data/site"
 
 export const metadata: Metadata = {
@@ -109,12 +110,12 @@ export default function PrivacyPage() {
         </div>
 
         <div className="mt-16">
-          <a
+          <Link
             href="/"
             className="text-sm text-forest/40 transition-colors hover:text-forest/70"
           >
             ← Volver al inicio
-          </a>
+          </Link>
         </div>
       </div>
     </div>
