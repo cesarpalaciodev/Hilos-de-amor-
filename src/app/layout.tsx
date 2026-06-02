@@ -28,8 +28,8 @@ export const metadata: Metadata = {
   },
   description: site.description,
   keywords: [
-    "peluches navideños",
-    "peluches artesanales",
+    "muñecos navideños",
+    "muñecos artesanales",
     "regalos navidad",
     "decoración navideña",
     "hecho a mano",

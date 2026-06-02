@@ -60,7 +60,7 @@ export const products: Product[] = [
     id: "renos-cortineros",
     name: "Pareja Renos Cortineros",
     price: 80000,
-    description: "Pareja de renos de peluche con narices rojas y trajes navideños estampados. Diseñados con brazos ajustables para sujetar y decorar las cortinas del hogar.",
+    description: "Pareja de renos de muñeco con narices rojas y trajes navideños estampados. Diseñados con brazos ajustables para sujetar y decorar las cortinas del hogar.",
     image: "/images/07-renos-cortineros.png",
     badge: "Hecho a mano",
   },

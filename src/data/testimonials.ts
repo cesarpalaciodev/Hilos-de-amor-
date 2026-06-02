@@ -10,7 +10,7 @@ export const testimonials: Testimonial[] = [
     id: "1",
     name: "María G.",
     text: {
-      es: "Los peluches son hermosos, la calidad es increíble. Mi hija los ama.",
+      es: "Los muñecos son hermosos, la calidad es increíble. Mi hija los ama.",
       en: "The plush toys are beautiful, the quality is amazing. My daughter loves them.",
     },
     rating: 5,

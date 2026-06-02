@@ -1,6 +1,6 @@
 export const site = {
   name: "Hilos de Amor",
-  description: "Peluches navideños artesanales hechos a mano con amor. Cada pieza es única y perfecta para decorar tu hogar en esta temporada navideña.",
+  description: "Muñecos navideños artesanales hechos a mano con amor. Cada pieza es única y perfecta para decorar tu hogar en esta temporada navideña.",
   whatsapp: "+573133406670",
   email: "hilosdeamor694@gmail.com",
   domain: "hilos-de-amor.com",
