@@ -1,6 +1,3 @@
-"use client"
-
-import { useState, useEffect } from "react"
 import Image from "next/image"
 import { site } from "@/data/site"
 import { getWhatsAppUrl } from "@/lib/whatsapp"
@@ -29,12 +26,6 @@ function FacebookIcon() {
 }
 
 export function Footer({ t }: FooterProps) {
-  const [year, setYear] = useState<number | null>(null)
-
-  useEffect(() => {
-    setYear(new Date().getFullYear())
-  }, [])
-
   return (
     <footer className="border-t border-forest/[0.06] bg-cream-warm px-4 py-20">
       <div className="mx-auto max-w-6xl">
@@ -118,7 +109,7 @@ export function Footer({ t }: FooterProps) {
 
         <div className="mt-20 border-t border-forest/[0.06] pt-10 text-center">
           <p className="text-[11px] tracking-wide text-forest/25">
-            &copy; {year ?? "2026"} {site.name}. {t.footer.rights}
+            &copy; <span suppressHydrationWarning>{new Date().getFullYear()}</span> {site.name}. {t.footer.rights}
           </p>
         </div>
       </div>
