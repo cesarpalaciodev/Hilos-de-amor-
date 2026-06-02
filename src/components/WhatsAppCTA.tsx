@@ -24,10 +24,10 @@ export function WhatsAppCTA({ t }: WhatsAppCTAProps) {
       <Star className="animate-twinkle absolute bottom-24 left-1/4 hidden h-4 w-4 text-gold opacity-25 md:block" style={{ animationDelay: "1s" }} />
 
       <motion.div
-        initial={{ opacity: 0, y: 40 }}
+        initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        transition={{ duration: 1, ease: [0.32, 0.72, 0, 1] }}
+        viewport={{ once: true, margin: "200px" }}
+        transition={{ duration: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
         className="mx-auto max-w-2xl text-center"
       >
         <span className="mb-5 inline-flex items-center gap-2.5 text-[10px] font-semibold uppercase tracking-[0.35em] text-christmas-red">
@@ -52,7 +52,7 @@ export function WhatsAppCTA({ t }: WhatsAppCTAProps) {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.8, delay: 0.25, ease: [0.32, 0.72, 0, 1] }}
+          transition={{ duration: 0.5, delay: 0.15, ease: [0.25, 0.1, 0.25, 1] }}
           className="group mt-14 inline-flex items-center gap-3.5 rounded-full bg-christmas-red px-12 py-5.5 text-base font-medium text-cream shadow-[0_12px_40px_rgba(196,30,58,0.25)] transition-all duration-800 ease-[cubic-bezier(0.32,0.72,0,1)] hover:bg-christmas-red-light hover:shadow-[0_16px_52px_rgba(196,30,58,0.35)] active:scale-[0.97]"
           aria-label={t.cta.button}
         >

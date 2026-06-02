@@ -34,7 +34,7 @@ export function Navbar({ t }: NavbarProps) {
         ref={navRef}
         initial={{ y: -100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 1, ease: [0.32, 0.72, 0, 1] }}
+        transition={{ duration: 0.7, ease: [0.25, 0.1, 0.25, 1] }}
         className={`fixed top-6 left-1/2 z-50 -translate-x-1/2 transition-all duration-800 ease-[cubic-bezier(0.32,0.72,0,1)] ${
           scrolled
             ? "w-[calc(100%-2rem)] max-w-3xl"

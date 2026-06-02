@@ -21,10 +21,10 @@ export function ProductGrid({ t, locale }: ProductGridProps) {
     <section id="catalog" className="px-4 py-32 md:py-44">
       <div className="mx-auto max-w-6xl">
         <motion.div
-          initial={{ opacity: 0, y: 28 }}
+          initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 1, ease: [0.32, 0.72, 0, 1] }}
+          viewport={{ once: true, margin: "200px" }}
+          transition={{ duration: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
           className="mb-24 text-center"
         >
           <span className="mb-5 inline-flex items-center gap-2.5 text-[10px] font-semibold uppercase tracking-[0.35em] text-christmas-red">

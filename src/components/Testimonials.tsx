@@ -41,13 +41,13 @@ export function Testimonials({ t, locale }: TestimonialsProps) {
           {testimonials.map((testimonial, index) => (
             <motion.div
               key={testimonial.id}
-              initial={{ opacity: 0, y: 48, filter: "blur(8px)" }}
-              whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-              viewport={{ once: true, margin: "-80px" }}
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "200px" }}
               transition={{
-                duration: 1,
-                delay: index * 0.18,
-                ease: [0.32, 0.72, 0, 1],
+                duration: 0.5,
+                delay: index * 0.08,
+                ease: [0.25, 0.1, 0.25, 1],
               }}
               className="group relative"
             >

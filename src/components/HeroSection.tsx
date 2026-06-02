@@ -48,7 +48,7 @@ export function HeroSection({ t }: HeroSectionProps) {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, ease: [0.32, 0.72, 0, 1] }}
+          transition={{ duration: 0.8, ease: [0.25, 0.1, 0.25, 1] }}
           className="mb-10"
         >
           <span className="inline-flex items-center gap-2.5 rounded-full border border-christmas-red/20 bg-christmas-red/[0.05] px-5 py-2 text-[10px] font-semibold uppercase tracking-[0.3em] text-christmas-red">
@@ -60,9 +60,9 @@ export function HeroSection({ t }: HeroSectionProps) {
         </motion.div>
 
         <motion.h1
-          initial={{ opacity: 0, y: 40, filter: "blur(12px)" }}
-          animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-          transition={{ duration: 1.2, delay: 0.2, ease: [0.32, 0.72, 0, 1] }}
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.15, ease: [0.25, 0.1, 0.25, 1] }}
           className="font-serif text-5xl font-light leading-[1.05] tracking-tight text-forest sm:text-6xl md:text-7xl lg:text-[5.75rem] whitespace-pre-line text-balance"
         >
           {t.hero.title}

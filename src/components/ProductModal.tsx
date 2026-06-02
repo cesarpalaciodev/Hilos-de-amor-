@@ -40,10 +40,10 @@ export function ProductModal({
           <div className="absolute inset-0 bg-forest/25 backdrop-blur-md" />
 
           <motion.div
-            initial={{ opacity: 0, y: 40, scale: 0.94 }}
+            initial={{ opacity: 0, y: 30, scale: 0.95 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 20, scale: 0.96 }}
-            transition={{ duration: 0.6, ease: [0.32, 0.72, 0, 1] }}
+            transition={{ duration: 0.4, ease: [0.25, 0.1, 0.25, 1] }}
             onClick={(e) => e.stopPropagation()}
             className="relative w-full max-w-lg"
           >

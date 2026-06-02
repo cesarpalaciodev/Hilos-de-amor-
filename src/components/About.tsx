@@ -35,10 +35,10 @@ export function About({ t }: AboutProps) {
       <div className="mx-auto max-w-6xl">
         <div className="grid gap-20 md:grid-cols-2 md:gap-28 items-center">
           <motion.div
-            initial={{ opacity: 0, x: -40 }}
+            initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 1, ease: [0.32, 0.72, 0, 1] }}
+            viewport={{ once: true, margin: "200px" }}
+            transition={{ duration: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
           >
             <span className="mb-5 inline-flex items-center gap-2.5 text-[10px] font-semibold uppercase tracking-[0.35em] text-christmas-red">
               <SantaHat className="h-3.5 w-3.5" />
@@ -54,7 +54,7 @@ export function About({ t }: AboutProps) {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, x: 40 }}
+            initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 1, delay: 0.2, ease: [0.32, 0.72, 0, 1] }}
@@ -63,13 +63,13 @@ export function About({ t }: AboutProps) {
             {badges.map((badge, index) => (
               <motion.div
                 key={badge.label}
-                initial={{ opacity: 0, y: 24 }}
+                initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
+                viewport={{ once: true, margin: "200px" }}
                 transition={{
-                  duration: 0.8,
-                  delay: 0.3 + index * 0.12,
-                  ease: [0.32, 0.72, 0, 1],
+                  duration: 0.5,
+                  delay: 0.2 + index * 0.08,
+                  ease: [0.25, 0.1, 0.25, 1],
                 }}
                 className="group rounded-[1.75rem] bg-forest/[0.02] p-1.5 ring-1 ring-forest/[0.05] transition-all duration-800 ease-[cubic-bezier(0.32,0.72,0,1)] hover:ring-christmas-red/[0.12] hover:shadow-[0_12px_32px_rgba(196,30,58,0.06)]"
               >

@@ -34,13 +34,13 @@ export function ProductCard({
 
   return (
     <motion.article
-      initial={{ opacity: 0, y: 56, filter: "blur(8px)" }}
-      whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-      viewport={{ once: true, margin: "-100px" }}
+      initial={{ opacity: 0, y: 40 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: "200px" }}
       transition={{
-        duration: 1,
-        delay: index * 0.15,
-        ease: [0.32, 0.72, 0, 1],
+        duration: 0.5,
+        delay: index * 0.08,
+        ease: [0.25, 0.1, 0.25, 1],
       }}
       className="group relative"
     >
