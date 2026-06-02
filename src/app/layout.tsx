@@ -19,7 +19,7 @@ const dmSans = DM_Sans({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://hilos-de-amor.com'),
+  metadataBase: new URL('https://www.hilos-de-amor.com'),
   title: {
     default: `${site.name} — Peluches Navideños Artesanales`,
     template: `%s | ${site.name}`,
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'es_CO',
-    url: 'https://hilos-de-amor.com',
+    url: 'https://www.hilos-de-amor.com',
     siteName: site.name,
     title: `${site.name} — Peluches Navideños Artesanales`,
     description: site.description,
@@ -70,7 +70,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://hilos-de-amor.com',
+    canonical: 'https://www.hilos-de-amor.com',
   },
 }
 
@@ -101,7 +101,7 @@ export default function RootLayout({
               "@type": "LocalBusiness",
               name: site.name,
               description: site.description,
-              url: "https://hilosdeamor.com",
+              url: "https://www.hilos-de-amor.com",
             }),
           }}
         />
