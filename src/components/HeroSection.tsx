@@ -107,19 +107,6 @@ export function HeroSection({ t }: HeroSectionProps) {
         </motion.div>
       </div>
 
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1.5, delay: 1.5 }}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2"
-      >
-        <div className="flex flex-col items-center gap-3">
-          <span className="text-[9px] font-medium uppercase tracking-[0.35em] text-forest/25">
-            Scroll
-          </span>
-          <div className="h-10 w-[1px] bg-gradient-to-b from-forest/20 to-transparent" />
-        </div>
-      </motion.div>
     </section>
   )
 }

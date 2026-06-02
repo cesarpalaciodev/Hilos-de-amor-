@@ -1,4 +1,4 @@
-const snowflakes = Array.from({ length: 35 }, (_, i) => ({
+const snowflakes = Array.from({ length: 15 }, (_, i) => ({
   id: i,
   left: ((i * 37) % 100),
   delay: ((i * 13) % 100) / 10,
