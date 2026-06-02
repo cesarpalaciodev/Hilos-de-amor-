@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 import { site } from "@/data/site"
 import { getWhatsAppUrl } from "@/lib/whatsapp"
 import { type TranslationKey } from "@/lib/i18n"
@@ -111,6 +112,12 @@ export function Footer({ t }: FooterProps) {
           <p className="text-[11px] tracking-wide text-forest/25">
             &copy; <span suppressHydrationWarning>{new Date().getFullYear()}</span> {site.name}. {t.footer.rights}
           </p>
+          <Link
+            href="/privacidad"
+            className="mt-3 inline-block text-[11px] text-forest/30 transition-colors hover:text-forest/50"
+          >
+            Política de privacidad
+          </Link>
         </div>
       </div>
     </footer>

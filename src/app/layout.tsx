@@ -4,6 +4,7 @@ import Script from "next/script"
 import "./globals.css"
 import { site } from "@/data/site"
 import { products } from "@/data/products"
+import { CookieBanner } from "@/components/CookieBanner"
 
 const cormorant = Cormorant_Garamond({
   variable: "--font-cormorant",
@@ -143,6 +144,7 @@ export default function RootLayout({
           aria-hidden="true"
         />
         {children}
+        <CookieBanner />
       </body>
       {ga4Id && ga4Id !== "G-XXXXXXXXXX" && (
         <>
