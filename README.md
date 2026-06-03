@@ -29,7 +29,7 @@ A premium Christmas plush e-commerce landing page built with Next.js 16, TypeScr
 ```bash
 # Clone the repository
 git clone <repository-url>
-cd pagina-madre
+cd web-Hilos de Amor
 
 # Install dependencies
 npm install
