@@ -37,7 +37,7 @@ export function ProductGrid({ t, locale }: ProductGridProps) {
           <div className="mx-auto mt-8 h-[1px] w-16 bg-gradient-to-r from-transparent via-christmas-red/30 to-transparent" />
         </motion.div>
 
-        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-2 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {products.map((product, index) => (
             <ProductCard
               key={product.id}
