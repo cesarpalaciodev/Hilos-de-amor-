@@ -30,7 +30,7 @@ export function Footer({ t }: FooterProps) {
   return (
     <footer className="border-t border-forest/[0.06] bg-cream-warm px-4 py-20">
       <div className="mx-auto max-w-6xl">
-        <div className="grid gap-14 md:grid-cols-3">
+        <div className="grid gap-14 sm:grid-cols-2 md:grid-cols-3">
           <div>
             <div className="flex items-center gap-3">
               <div className="relative h-12 w-12 overflow-hidden rounded-full bg-cream shadow-[0_4px_12px_rgba(27,58,45,0.1)] ring-2 ring-cream">

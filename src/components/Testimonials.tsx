@@ -37,7 +37,7 @@ export function Testimonials({ t, locale }: TestimonialsProps) {
           <div className="mx-auto mt-8 h-[1px] w-16 bg-gradient-to-r from-transparent via-gold/25 to-transparent" />
         </motion.div>
 
-        <div className="grid gap-8 md:grid-cols-3">
+        <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3">
           {testimonials.map((testimonial, index) => (
             <motion.div
               key={testimonial.id}
